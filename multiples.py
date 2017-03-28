@@ -5,5 +5,6 @@ userNum = input("Tell me a number. ")
 # Convert to float
 userNum = float(userNum)
 
-# Do the doubling
-print("Double that is {}. ".format(userNum*2))
+# Do the multiplying
+for multiple in range(1,10):
+	print("{} time {} is {}. ".format(userNum, multiple, userNum*multiple))
